@@ -7,10 +7,17 @@ const Hero = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Diki Armanda.', 'Fullstack Developer.', 'Lecturer.', 'Graphic Designer.'],
+      strings: [
+        'Diki Armanda.', 
+        'Fullstack Developer.',
+        'Lecturer.', 
+        'FrontEnd Developer.', 
+        'Graphic Designer.',
+        'BackEnd Developer.',
+      ],
       typeSpeed: 100,
       loop: true,
-      shuffle: true,
+      // shuffle: true,
     });
 
     return () => {
@@ -30,7 +37,7 @@ const Hero = () => {
             <span ref={el}></span>
           </h1>
           <p className="pt-3 pb-6">
-            &quot;Believe you can and you&apos;re halfway there. - Theodore Roosevelt&quot;
+            &quot;whoever has done an atom&apos;s-weight of good will see it,. - 99:7&quot;
           </p>
           <a href="#contact" className="btn btn-secondary">Hire Me</a>
         </div>

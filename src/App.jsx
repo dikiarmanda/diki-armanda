@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/About"
-import Events from "./components/Events"
+import Portfolio from "./components/Portfolios"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
@@ -12,7 +12,7 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Events compact={true} />
+        <Portfolio compact={true} />
         <Contact />
       </main>
       <Footer />

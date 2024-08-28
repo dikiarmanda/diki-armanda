@@ -9,6 +9,9 @@ import ngobar70 from './ngobar7.0.jpg'
 import ngobar80 from './ngobar8.0.jpg'
 import ngebar10 from './ngebar1.0.jpg'
 import ngobarburit10 from './ngobarburit1.0.jpg'
+import cariJurnal from './cariJurnal.png'
+import varkModel from './varkModel.png'
+import aplikasiSistemPersamaanNonLinier from './aplikasiSistemPersamaanNonLinier.png'
 
 const POSTER = {
   ngebar10: ngebar10,
@@ -22,6 +25,9 @@ const POSTER = {
   ngobar70: ngobar70,
   ngobar80: ngobar80,
   ngobarburit10: ngobarburit10,
+  cariJurnal: cariJurnal,
+  varkModel: varkModel,
+  aplikasiSistemPersamaanNonLinier: aplikasiSistemPersamaanNonLinier,
 }
 
 export default POSTER

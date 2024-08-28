@@ -2,17 +2,13 @@ const About = () => {
   return (
     <div className="flex flex-wrap px-10 py-20 justify-center lg:items-center" id="about">
       <div className="lg:w-1/2 lg:pe-7">
-        <h1 className="font-bold text-3xl">Apa itu UMSIDA.dev?</h1>
+        <h1 className="font-bold text-3xl">About Me</h1>
         <p className="mt-5">
-          UMSIDA.dev adalah komunitas terbuka dari program studi Informatika
-          <span className="font-bold"> Universitas Muhammadiyah Sidoarjo </span>
-          bagi semua yang tertarik pada dunia informasi dan teknologi. Fokusnya
-          adalah pembelajaran dan berbagi pengetahuan melalui lokakarya dan
-          seminar, memungkinkan anggota dari berbagai latar belakang untuk
-          saling belajar dan membangun koneksi profesional.
-          <span className="font-bold block">
-            so have fun and let&apos;s code.
-          </span>
+          Hi, I&apos;m Mokhamad Diki Armanda, a graduate of the Informatics program from 
+          Muhammadiyah Sidoarjo University. My education provided me with a strong foundation in IT. 
+          While in college, I not only concentrated on my academic studies but also took part in 
+          various activities, including community service and organizing workshops to help peers 
+          enhance their skills in Web Development.
         </p>
       </div>
       <div className="mt-5 lg:mt-0">
