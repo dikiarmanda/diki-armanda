@@ -1,9 +1,9 @@
 const About = () => {
   return (
-    <div className="flex flex-wrap px-10 py-20 justify-center lg:items-center" id="about">
+    <div className="flex flex-wrap px-10 py-20 justify-between lg:items-center" id="about">
       <div className="lg:w-1/2 lg:pe-7">
         <h1 className="font-bold text-3xl">About Me</h1>
-        <p className="mt-5">
+        <p className="text-left mt-5">
           Hi, I&apos;m Mokhamad Diki Armanda, a graduate of the Informatics program from 
           Muhammadiyah Sidoarjo University. My education provided me with a strong foundation in IT. 
           While in college, I not only concentrated on my academic studies but also took part in 
