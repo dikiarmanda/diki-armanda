@@ -1,5 +1,4 @@
 const TechStack = () => {
-  // https://brandfetch.com/laravel.com?library=default&collection=logos&asset=idZGpFF2A8&view=overview
   return (
     <div className="flex flex-wrap justify-center bg-base-200 py-10 lg:py-20" id="techstack">
       <div className="mockup-code">
