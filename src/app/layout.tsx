@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Diki Armanda",
     "Fullstack Developer",
     "Portofolio",
-    "Web Developer",
+    "Software Engineer",
     "Lecturer",
   ],
   authors: [{ name: "Mokhamad Diki Armanda" }],

@@ -26,7 +26,7 @@ export const siteConfig = {
   },
   about: `Halo! Saya Mokhamad Diki Armanda, lulusan program studi Informatika dari Universitas Muhammadiyah Sidoarjo. Pendidikan saya memberikan fondasi yang kuat di bidang teknologi informasi.
 
-Selama kuliah, saya tidak hanya fokus pada studi akademis tetapi juga aktif dalam berbagai kegiatan — mulai dari pengabdian masyarakat hingga mengorganisir workshop untuk membantu teman sebaya meningkatkan keterampilan Web Development.`,
+Selama kuliah, saya tidak hanya fokus pada studi akademis tetapi juga aktif dalam berbagai kegiatan — mulai dari pengabdian masyarakat hingga mengorganisir workshop untuk membantu teman sebaya meningkatkan keterampilan Software Engineer.`,
   techStack: [
     { name: "Laravel", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" },
     { name: "CodeIgniter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" },
