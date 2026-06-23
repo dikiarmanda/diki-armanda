@@ -1,8 +1,39 @@
-# React + Vite
+# Portofolio Diki Armanda
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website portofolio pribadi dibangun dengan **Next.js 15**, **React 19**, **Tailwind CSS 4**, dan **TypeScript**.
 
-Currently, two official plugins are available:
+## Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Desain modern dengan gradient, glass morphism, dan animasi halus
+- Mode gelap / terang (sistem)
+- Responsif di mobile, tablet, dan desktop
+- Bagian: Hero, Tentang, Tech Stack, Proyek, Kontak
+- SEO metadata & Open Graph
+
+## Menjalankan
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Buka [http://localhost:3000](http://localhost:3000).
+
+## Build Production
+
+```bash
+pnpm build
+pnpm start
+```
+
+## Struktur
+
+```
+src/
+  app/          # Layout & halaman Next.js
+  components/   # Komponen UI
+  lib/          # Data portofolio & konfigurasi
+  providers/    # Theme provider
+public/
+  images/       # Foto profil & screenshot proyek
+```
