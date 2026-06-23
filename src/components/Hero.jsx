@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'typed.js'
-import PROFILE from "../assets/images/diki.jpg"
+import PROFILE from "../assets/images/diki.png"
 
 const Hero = () => {
   const el = React.useRef(null);
