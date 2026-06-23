@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --color-accent: #06b6d4;
+  --color-accent-2: #8b5cf6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100;
+}
+
+::selection {
+  @apply bg-cyan-500/30 text-zinc-900 dark:text-white;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-cyan-500 via-violet-500 to-cyan-400 bg-clip-text text-transparent;
+}
+
+.glass {
+  @apply border border-zinc-200/60 bg-white/70 backdrop-blur-xl dark:border-zinc-800/60 dark:bg-zinc-950/70;
+}
+
+.mesh-bg {
+  background-image:
+    radial-gradient(at 20% 20%, rgb(6 182 212 / 0.15) 0, transparent 50%),
+    radial-gradient(at 80% 0%, rgb(139 92 246 / 0.12) 0, transparent 45%),
+    radial-gradient(at 50% 80%, rgb(6 182 212 / 0.08) 0, transparent 40%);
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-cyan-500/10 dark:hover:shadow-cyan-500/5;
+}
+
+.section-padding {
+  @apply px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+}
