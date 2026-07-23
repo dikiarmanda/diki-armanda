@@ -7,6 +7,7 @@ export type Portfolio = {
 };
 
 export const siteConfig = {
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000"),
   name: "Diki Armanda",
   fullName: "Mokhamad Diki Armanda",
   title: "Software Engineer & Lecturer",
@@ -25,9 +26,9 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/diki.armanda0/",
     whatsapp: "https://api.whatsapp.com/send?phone=6285646231475",
   },
-  about: `Halo! Saya Mokhamad Diki Armanda, lulusan program studi Informatika dari Universitas Muhammadiyah Sidoarjo. Pendidikan saya memberikan fondasi yang kuat di bidang teknologi informasi.
+  about: `Halo! Saya Diki Armanda, lulusan program studi Informatika dari Universitas Muhammadiyah Sidoarjo. Pendidikan saya memberikan fondasi yang kuat di bidang teknologi informasi.
 
-Selama kuliah, saya tidak hanya fokus pada studi akademis tetapi juga aktif dalam berbagai kegiatan — mulai dari pengabdian masyarakat hingga mengorganisir workshop untuk membantu teman sebaya meningkatkan keterampilan Web Development.`,
+Selama kuliah, saya tidak hanya fokus pada studi akademis tetapi juga aktif dalam berbagai kegiatan — mulai dari pengabdian masyarakat hingga menyelenggarakan workshop untuk membantu teman-teman mahasiswa meningkatkan keterampilan Software Engineer.`,
   techStack: [
     { name: "Laravel", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" },
     { name: "CodeIgniter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" },

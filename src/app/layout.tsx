@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { ThemeProvider } from "@/providers/theme-provider";
+import { siteConfig } from "@/lib/data";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,21 +17,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: "Diki Armanda | Fullstack Developer & Lecturer",
-  description:
-    "Portofolio Mokhamad Diki Armanda — Fullstack Developer, Lecturer, dan pengembang web.",
-  keywords: [
-    "Diki Armanda",
-    "Fullstack Developer",
-    "Portofolio",
-    "Web Developer",
-    "Lecturer",
-  ],
+  description: "Portofolio Mokhamad Diki Armanda — Fullstack Developer, Lecturer, dan pengembang web.",
+  keywords: ["Diki Armanda", "Fullstack Developer", "Portofolio", "Software Engineer", "Lecturer"],
   authors: [{ name: "Mokhamad Diki Armanda" }],
   openGraph: {
     title: "Diki Armanda | Portofolio",
     description: "Fullstack Developer & Lecturer",
     type: "website",
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    locale: "id_ID",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Diki Armanda | Portofolio",
+    description: "Fullstack Developer & Lecturer",
   },
 };
 
@@ -41,9 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
         <ThemeProvider>
           <Navbar />
           <main>{children}</main>

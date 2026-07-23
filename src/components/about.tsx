@@ -11,7 +11,7 @@ const highlights = [
   },
   {
     icon: Code2,
-    title: "Web Development",
+    title: "Software Engineer",
     desc: "Fullstack & frontend development",
   },
   {

@@ -95,7 +95,7 @@ export function Hero() {
             <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-cyan-500/30 via-violet-500/20 to-cyan-400/30 blur-2xl" />
             <div className="relative overflow-hidden rounded-[2rem] border border-zinc-200/80 p-1 shadow-2xl dark:border-zinc-800">
               <Image
-                src="/images/diki.jpg"
+                src="/images/diki.png"
                 alt={siteConfig.fullName}
                 width={400}
                 height={400}
