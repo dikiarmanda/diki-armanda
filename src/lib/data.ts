@@ -9,15 +9,16 @@ export type Portfolio = {
 export const siteConfig = {
   name: "Diki Armanda",
   fullName: "Mokhamad Diki Armanda",
-  title: "Fullstack Developer & Lecturer",
+  title: "Software Engineer & Lecturer",
   quote:
     "Barangsiapa mengerjakan kebaikan seberat zarrah, niscaya dia akan melihat balasannya. — QS. Az-Zalzalah: 7",
   roles: [
-    "Fullstack Developer",
+    "Software Engineer",
     "Lecturer",
     "Frontend Developer",
     "Graphic Designer",
     "Backend Developer",
+    "Gunpla Collector",
   ],
   social: {
     github: "https://github.com/dikiarmanda",
@@ -34,12 +35,25 @@ Selama kuliah, saya tidak hanya fokus pada studi akademis tetapi juga aktif dala
     { name: "Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
     { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
     { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
-    { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+    { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
     { name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+    { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+    { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+    { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+    { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+    { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+    { name: "GitLab", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" },
   ],
 };
 
 export const portfolios: Portfolio[] = [
+  {
+    title: "Papan Binangun",
+    desc: "Website wisata Binangun, Kabupaten Pasuruan. Tidak hanya menampilkan informasi wisata, tetapi juga sebagai sistem reservasi paket wisata dan homestay serta e-commerce produk UMKM Binangun.",
+    img: "/images/portfolios/papanBinangun.png",
+    link: "https://papanbinangun.id/",
+    tags: ["CodeIgniter", "Tailwind CSS", "MySQL"],
+  },
   {
     title: "Cari Jurnal",
     desc: "Aplikasi untuk memudahkan pengguna mencari portal jurnal sesuai preferensi. Dilengkapi informasi publication fee agar pengguna mengetahui biaya publikasi di setiap portal.",
